@@ -20,11 +20,13 @@ Star Wars facts from [Buzzfeed](https://www.buzzfeed.com/awesomer/facts-you-prob
 1. Slack bot's name is `@polly`
 1. Set the api key in a .env file to an environment variable `SLACKBOT_KEY`
   - slack Christine for apikey
+  - get an API Key by... 
 1. Invite @polly to whatever ga-students channel you want to use it in.
 1. Run `node app.js` to start the bot.
 1. Communicate with the bot by typing commands directly to the bot via mention or private message in Slack.
 1. There are permission levels for certain commands. These can be set with environment variables `TA_ID` and `ADMIN_ID`
-1. Run `@polly what is my user id?` to get your Slack id
+  - To find a user's ID, open Slack in the browser, and open Chrome tools, use the inspector to click on the person's name in the left tab and the ID will be there as an attribute. [More info](http://stackoverflow.com/questions/40940327/what-is-the-simplest-way-to-find-a-slack-team-id-and-a-channel-id)
+
 
 -------
 # Customization
